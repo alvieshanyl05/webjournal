@@ -1,0 +1,84 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color: palevioletred;
+  color: black;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 16px;
+}
+
+nav a {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+/* Style the home page content */
+#home {
+  padding: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+#latest-entries {
+  padding: 24px;
+}
+
+article {
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style the about page content */
+#about-content {
+  padding: 24px;
+}
+
+/* Style the footer */
+footer {
+  background-color: aqua;
+  color: #333;
+  padding: 16px;
+  text-align: center;
+}
